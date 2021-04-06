@@ -27,7 +27,7 @@ Getting up and running is as easy as 1, 2, 3.
 ## Examples
 
 1. Getting Distance Matrix 
-
+   ```
     POST {{base-url}}/maps/distances
     [
         {
@@ -45,4 +45,4 @@ Getting up and running is as easy as 1, 2, 3.
             "duration": 18020
         }
     ]
-
+```
