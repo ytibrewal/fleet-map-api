@@ -1,9 +1,23 @@
 {
   "host": "localhost",
-  "port": 3030,
+  "port": 3036,
   "public": "../public/",
   "paginate": {
     "default": 10,
     "max": 50
+  },
+  "google_apis": {
+    "maps": {
+      "api_key": "<YOUR API KEY>",
+      "geocode_url": "https://maps.googleapis.com/maps/api/geocode/json?sensor=true",
+      "distancematrix_url": "https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial"
+    }
+  },
+  "here_map": {
+    "app_id": "<YOUR APP ID>",
+    "app_code": "<YOUR APP CODE>"
+  },
+  "tomtom_map": {
+    "api_key": "<YOUR API KEY>"
   }
 }
