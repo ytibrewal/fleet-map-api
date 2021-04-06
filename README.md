@@ -51,6 +51,7 @@ Getting up and running is as easy as 1, 2, 3.
 
     
 2. Getting Geocodes with formatted addresses  
+
     ```
     GET {{base-url}}/maps/geocodes?address=My Street, , New York .
     
@@ -80,3 +81,17 @@ Getting up and running is as easy as 1, 2, 3.
     }
     ```
 
+
+3. Getting Truck Routes alone several waypoints.  
+
+    ```
+    GET {{base-url}}/maps/routes?mode=Waypoints&waypoints[]=22.5726, 88.3639&waypoints[]=19.0760,72 .8777
+    ```
+
+
+4. Getting Region of Intreasts related to Trucks
+    
+    ```
+    GET {{base-url}}/maps/nearby?location=22.5726, 88.3639&poi[]=Truck Stop&poi[]=Gas Station
+
+    ```
